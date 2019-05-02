@@ -1,14 +1,125 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="veiwport" content="width=device-width,user-scalable=no">
-	<title>Educación</title>
-</head>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="veiwport" content="width=device-width,user-scalable=no">
+			<title>Educación</title>
+		</head>
 
 
 
-<body>
+		<body>
 
-</body>
+		<header>			
+			<svg width="200" height="100">
+			<image xlink:href="/home/cesar/Documentos/GitHub/EvaluacionFinal/NextU_Proj/Principal/LogoP.svg" width="200" hight="100">Imagen de logo </image>
+			</svg>
+		</header>
+
+		<h1 style="background-color:#3363FF; border: ridge Black 2px"><span style="background: 2px;"><font color="White">Curriculo Vitae</font> </span></h1>
+
+		<h1><font color="#3363FF">Datos Personales</font></h1>
+			<h2><font color="#424242"> Cesar Mauricio Peña Martinez</font></h2>
+				<h3><font color="#424242"> 03 de Octubre de 1987. Funza, Cundinamarca.</font></h3>
+
+		<nav>
+			<ul>
+				<li><a href="../index.html">Curriculo Vitae</a></li><!--etiqueta de enlace el atributi target con el valor blank se usa para abrir otra ventana en el navegador.--> 
+				<li><a href="../Vinculos/experiencia.html">Experiencia</a></li>
+			</ul>
+		</nav>
+
+			<h2><font color="#3363FF">Educación</h2></font>
+
+			<table border="1"><!--Tabla de Educación-->			
+			<thead>
+				<tr>				
+					<td><strong>Año</strong></td>
+					<td><strong><center>Institución</center></strong></td>
+					<td><strong>Lugar</strong></td>
+					<td><strong>¿culminó?</strong></td>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>2005</td>
+					<td>I.D. Colegio departamental</td>
+					<td>Funza</td>
+					<td>Bachillerato</td>
+				</tr>
+
+				<tr>
+					<td>2012</td>
+					<td>Universidad Pedagógica Nacional</td>
+					<td>Bogotá</td>
+					<td>Lic. en Física</td>
+				</tr>
+
+				<tr>
+					<td>2018</td>
+					<td>Centro de Investigaciones en (CIO)</td>
+					<td>México</td>
+					<td>Optomecatrónica</td>
+				</tr>
+			</tbody>
+			</table>
+
+			<br/>		
+
+			<form autocomplete="on" name="Agregar Estudios"><!--Etiqueta para hacer un formulario-->
+				<fieldset><!--envuelve el formulario en un recuadro detro del navegador-->
+					<legend><font size="5"><strong>Agregar Estudios</strong></font> </legend>
+
+						<label for="Año">Año:</label>
+							<select id="Año">
+								<option>2001</option>
+								<option>2002</option>
+								<option>2003</option>
+								<option>2004</option>
+								<option>2005</option>
+								<option>2006</option>
+								<option>2007</option>
+								<option>2008</option>
+								<option>2009</option>
+								<option>2010</option>
+								<option>2011</option>
+								<option>2012</option>
+								<option>2013</option>
+								<option>2014</option>
+								<option>2015</option>
+								<option>2016</option>
+								<option>2017</option>
+								<option>2018</option>
+								<option>2019</option>
+							</select> <br/><br/>	
+						
+
+						<label for="Institución">Institución:</label>  
+						<input type="text" ismap="Institución" placeholder="Ejem: universidad Bogotá"><br/><br/>						
+						
+
+						<label for="Lugar"> Lugar: </label>
+							<input type="text" id="Lugar" placeholder="Bogotá">							
+						<br/><br/>	
+
+						<input type="submit" name="Enviar">
+
+				</fieldset>
+			</form>
+		</body>
+
+		<footer>		
+			<center><h2 style="background-color:#3363FF; border: ridge Black 2px"><span style="background: 2px;"><font color="White">Contacto:</h3></font></span></center>
+			<center>
+				<p style="background-color:#3363FF; border: ridge Black 2px"><span style="background: 2px;">
+					<font color="White" size="4">
+						Calle 23 N° 6-46. Funza, Cundinamarca.<br/>
+						Movil: 3194312330.<br/>
+						tel: 8221944<br/>
+						email: cesarm.p8710@gmail.com
+					</font>
+				</p>
+			</center>
+		</footer>
 </html>
